@@ -3,8 +3,18 @@
 使用方法
 
 1、添加依赖
+allprojects {
+    repositories {
+
+        maven {
+            url 'https://jitpack.io'
+        }
+    }
+}
+
+
 dependencies {
-	 implementation 'com.github.iceheyu:videoeditor:Tag'
+	 implementation 'com.github.iceheyu:videoeditor:v1.0'
 }
 
 2、使用
